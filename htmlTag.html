@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>tag 정리</title>
+</head>
+
+<body>
+  <style>
+    table {
+      border: 1px solid #222;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 10px;
+      font-size: 0.8em;
+    }
+  </style>
+
+  <table>
+    <caption>HTML tag 요약</caption>
+    <tr style="background-color: skyblue;">
+      <th>태크(tag)</th>
+      <th>설명</th>
+      <th>사용 예</th>
+    </tr>
+    <tr>
+      <td>&lt;html&gt;</td>
+      <td>웹 문서 시작과 끝</td>
+      <td>&lt;html lang="ko"&gt;...&lt;/html&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;head&gt;</td>
+      <td>문서 관련 정보 나열</td>
+      <td>&lt;head&gt;&lt;meta charset="utf-8"&gt;&lt;title&gt;...&lt;/title&gt;&lt;link&gt;&lt;/head&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;body&gt;</td>
+      <td>문서 몸통 (화면 표시 내용)</td>
+      <td>&lt;body&gt;...&lt;/body&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;header&gt;</td>
+      <td>문서 내용 머리부분 (로고, 메뉴)</td>
+      <td>&lt;header&gt;&lt;nav&gt;메뉴&lt;/nav&gt;&lt;/header&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;section&gt;</td>
+      <td>본문 영역</td>
+      <td>&lt;section&gt;...&lt;article&gt;내용&lt;/article&gt;...&lt;/section&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;footer&gt;</td>
+      <td>제작정보, 저작권 정보</td>
+      <td>&lt;footer&gt;...&lt;/footer&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;aside&gt;</td>
+      <td>본문 이외의 정보 (광고, 링크)</td>
+      <td>&lt;aside&gt;...&lt;/aside&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;hn&gt;</td>
+      <td>제목 태크</td>
+      <td>&lt;h1&gt;제목&lt;/h1&gt; (글자 크기 : h1 &gt; h2 &gt; h3 &gt; h4 &gt; h5 &gt; h6)</td>
+    </tr>
+    <tr>
+      <td>&lt;p&gt;</td>
+      <td>문단 표시(앞뒤 빈 줄 삽입></td>
+      <td>&lt;p&gt;내용내용&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;br&gt;</td>
+      <td>줄 바꿈 </td>
+      <td>&lt;p&gt;내용&lt;br&gt;내용&lt;/p&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;b&gt;&lt;i&gt;</td>
+      <td>글자 굵게, 기울이기</td>
+      <td>&lt;b&gt;<b>진하게</b>&lt;/b&gt;...&lt;i&gt;<i>기울이기</i>&lt;/i&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;img&gt;</td>
+      <td>이미지 삽입</td>
+      <td>&lt;img src=“강아지.png” width=“200” height=“100” <a style="color: red;">alt=“강아지 그림”</a>
+        title=“툴팁"&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;a&gt;</td>
+      <td>하이퍼링크 설정</td>
+      <td>&lt;a href=<a href="#">http://www.naver.com</a> target=“_blank” title=“툴팁”&gt;...&lt;/a&gt;
+      </td>
+    </tr>
+    <tr>
+      <td>&lt;pre&gt;</td>
+      <td>소스에 표시된 대로 표시 </td>
+      <td>&lt;pre&gt;...&lt;/pre&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;mark&gt;</td>
+      <td>형광펜 효과</td>
+      <td>&lt;mark&gt;<mark>중요한 내용</mark>&lt;/mark&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;span&gt;</td>
+      <td>영역 묶기(스타일 적용) </td>
+      <td>&lt;span&gt;내용내용&lt;/span&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;ui&gt;&lt;li&gt;</td>
+      <td>순서 없는 목록(블릿 기호)</td>
+      <td>&lt;ui&gt;&lt;li&gt;...&lt;/ui&gt;&lt;/li&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;oi&gt;&lt;li&gt;</td>
+      <td>순서 있는 목록(번호, 알파벳…)</td>
+      <td>&lt;oi&gt;&lt;li&gt;...&lt;/oi&gt;&lt;/li&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;dl&gt;&lt;dt&gt;&lt;dd&gt;</td>
+      <td>정의 목록(용어정리, 설명,질문,답)</td>
+      <td>&lt;dl&gt; &lt;dt&gt;...&lt;/dt&gt; &lt;dd&gt;...&lt;/dd&gt;&lt;/dl&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;table&gt;</td>
+      <td>표의 시작</td>
+      <td>&lt;table&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;caption&gt;</td>
+      <td>표의 제목</td>
+      <td>&lt;caption&gt;표제목&lt;/caption&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;tr&gt;&lt;th&gt;&lt;td&gt;</td>
+      <td>행 생성, 필드명, 셀내용(열생성)</td>
+      <td>&lt;tr&gt; &lt;th&gt;이름&lt;/th&gt; &lt;td&gt;홍길동&lt;/td&gt;...&lt;/table&gt;</td>
+    </tr>
+    <tr>
+      <td>[colspan]</td>
+      <td>열 합치기</td>
+      <td>&lt;td colspan="3"&gt;...&lt;/td&gt;</td>
+    </tr>
+    <tr>
+      <td>[rowspan]</td>
+      <td>행 합치기</td>
+      <td>&lt;td rowspan="4"&gt;...&lt;/td&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;a id=“앵커”&gt;</td>
+      <td>한 페이지 내에서 이동</td>
+      <td>&lt;a href = "#art"&gt;<a href="#">강아지</a>&lt;/a&gt; -&gt; &lt;a id =
+        "art"&gt;&lt;p&gt;강아지&lt;/p&gt;&lt;/a&gt;</td>
+    </tr>
+    <tr>
+      <td>&lt;figure&gt;&lt;figcaption&gt;</td>
+      <td>이미지 캡션 넣기 </td>
+      <td>&lt;figure&gt;...&lt;figcaption&gt;캡션 내용&lt;/figcaption&gt;...&lt;/figure&gt;</td>
+    </tr>
+
+
+  </table>
+
+</body>
+
+</html>

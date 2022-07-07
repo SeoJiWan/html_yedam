@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>html start</title>
+</head>
+
+<body>
+  <h3># h태그 실습</h3>
+  <h1>어디 갈래?</h1>
+  <h2>어디 갈래?</h2>
+  <h3>어디 갈래?</h3>
+  <h4>어디 갈래?</h4>
+  <h5>어디 갈래?</h5>
+  <h6>어디 갈래?</h6>
+  <h3><a href="https://www.naver.com/">여기는 네이버</a></h3>
+  <p><a href="http://www.google.com/">여기는 구글</a></p>
+
+  <div style="background-color: burlywood;">이건 div</div>
+  <div style="background-color: burlywood;">이건 div</div>
+  <span style="background-color: pink;">이건 span</span>
+  <span style="background-color: pink;">이건 span</span>
+
+  <h3># 문자 꾸미기 실습</h3>
+  <p>About as much as <strong>eight</strong> months' worth of rain has come down in just four days, bringing parts of
+    Australia's largest city to a standstill.
+    <hr>
+    Experts say no <em>single</em> factor can explain this extreme weather, pointing instead to warmer oceans and
+    saturated soils as contributing factors.
+  <blockquote><q><s>But conspiracy theorists aren't buying it.</s></q></blockquote> On social media, they blame the
+  extreme rainfall on "cloud seeding" and "weather manipulation".<br>
+  <mark>There is no evidence to back up such theories</mark>, but this hasn't prevented falsehoods from reaching
+  thousands of people online.</p>
+
+  <h3># 리스트 실습</h3>
+  <ul>
+    <li>사과</li>
+    <li>복숭아</li>
+    <li>포도</li>
+  </ul>
+  <ol start="3" type="a" , reversed>
+    <li>사과</li>
+    <li>복숭아</li>
+    <li>포도</li>
+  </ol>
+
+  <h3># 설명 실습</h3>
+  <dl>
+    <dt>바나나</dt>
+    <dd>노란색 길쭉</dd>
+    <dt>사과</dt>
+    <dd>빨간건 사과 사과는 맛있어</dd>
+  </dl>
+
+  <h3># 테이블 실습</h3>
+  <table>
+    <caption>파라다이스 객실</caption>
+    <thead style="background-color: royalblue;">
+      <tr>
+        <th>방이름</th>
+        <th>대상</th>
+        <th>크기</th>
+        <th>가격</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="background-color: pink;">핑크방</td>
+        <td>여성</td>
+        <td rowspan="3">4인실</td>
+        <td rowspan="4">1인 2,000,000원</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="background-color: violet;">보라방</td>
+        <td>동성</td>
+      </tr>
+      <tr>
+        <td>가족1팀</td>
+      </tr>
+      <tr>
+        <td style="background-color: green;">그린방</td>
+        <td>-</td>
+        <td>2인실</td>
+      </tr>
+      <tr>
+        <td colspan="4">파격세일</td>
+      </tr>
+      <tr>
+        <td colspan="4" style="background-color: yellow;"><a
+            href="https://www.p-city.com/?utm_source=naver&utm_medium=brandsearch_pc&utm_campaign=mainpage&utm_content=maintext">예약
+            바로가기</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Education</h1>
+  <style>
+    table {
+      width: 70%;
+      border: 1px solid #222;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 0.8em;
+    }
+  </style>
+  <table>
+    <caption>학력사항</caption>
+    <tr style="background-color: gray;">
+      <th>출신학교</th>
+      <th>전공</th>
+      <th>기간</th>
+      <th>구분</th>
+    </tr>
+    <tr>
+      <td>코딩하는중인대학교</td>
+      <td>코딩</td>
+      <td>2000.04 ~ 2000.05</td>
+      <td>졸업</td>
+    </tr>
+    <tr>
+      <td>코딩중이고등학교</td>
+      <td>코딩</td>
+      <td>2000.04 ~ 2000.05</td>
+      <td>졸업</td>
+    </tr>
+  </table>
+
+  <br>
+  <h3># 이미지 실습</h3>
+  <span>
+    <!-- <figure> -->
+    <!-- <figcaption>내 전적보기</figcaption> -->
+    <a href="https://www.op.gg/summoners/kr/%EB%8B%88%20%EB%8C%80%EA%B5%B4%EB%B9%A1%EC%97%90%20%EA%B0%95%ED%83%80"
+      target="_blank">
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARcAAAC1CAMAAABCrku3AAAAclBMVEVTg+j///9QgehBeeZlj+pKfudFe+dDeuc/d+ZIfefy9f2Cou3D0fbZ4vl4m+yTru9ciemovfKdtfDh6PqtwPKEo+27y/TX4Pn4+v5wlutfi+l8nuxVhejR3Pjq7/zI1faUr++iuPG9zPWyxfMwcOWLqe7p1J+QAAAIV0lEQVR4nO2c2YKqOhBFNTEBPIqg3QqK8/H/f/Gix4FUZuS+7fVoE1LZJJWqDD0aAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAhYXeCHnLQt94+BQco7Xm3kJxv693vrm5SLoX9yeb3j4NdPUqliDFSyCRt6l1bsuA8rug/q4t6t8snozRxWd0LlvG63E/HLw7HZcEtlbDJ2EM1/5nYStOXCd6cjod30em+nPAsUJrW6km5/xQ+zE4Nj9PV/X4+WU+11h3KRprq8OvyKH3iAQbKUXnQik7Xk5CyjG+vutWrM5PRAljev5tbGnfcJobng3Rpm/eHeyqW26Ol7HznU4bx3Gp1YfyekcjJytG440gbD6G6tIWd9gk2c5RdTZyfXU5sqtyZsW8dDeNrT+OWKWlcuC7jaWMVhvGTp/Da3mUYv3oKB41iO2Krj1DKhrjBCF3GVWExj8m9t/B0a/nqYqs7Jco+1HmbkL9BjVPti9FlXFlaVvi/R8uvcSzJPyFlrar6SZaBrau7VUTpMj6kJlnqwNJLg99PfAPQaPX/IYtaRZwu46v+zYNlaYXRSst+VoeT3SJaN/mM1khdukWfL9hGlL5lX1i97eFjWPhHa6n66zInYQwTQb7lxY59YbV9PrTKIqqo1q3efiJWl3GtGpe6Ig+NzfYLq9fx/YX750mV8tWho3U5Kj4iC/cPLYu0v9XTOj4jEMZhWu2v52W5Nn/QwqjLNCWLDMVNs11xEY2xCcfydFucac17ErcKY1xxmLWFT+WMBDXXPqFdYuiPszqVmRAiS/jvRv/zhht14XTxpc23SMlFp3WmL77ecinEo2a56GQlN5pgcd0zTcvRs7DkTdlZEXDnERZEqVVwHHWymTbD1rOmp5+guuhvz3Ly6o+JBr+5zrpplEh3z8bRztL+7awVXqbdh0T6eqJXZ2mF17oLTX7Zu4o3z4nFr8soUTPCzjMJ7S5VndD8iz+y7JveMs3q1YjM4qOsuY+mfp2l1ZWGjFWhh0CSDodnOBCgC3UiH+sL8sqDafkxvY73QjdIs/poiKUZn49/aKobCqeDxDjPZ1SY9aN9IbqQCt6hXUby4Kl5dU3mtBOZrN6bUox2Ku8xDT2hX80SMMuz+lj10CBEl0xdvfh9tZI6TltAavyZWH2wLXv1TqSp170asrMHKflCD88bootQg5TXhERDnyV1D06ryVfS8ouvkeosXNlk0drxI7QfLboslHKnpy7kgxhz7VCrLwMt43bgamtL+1cj0cb8bkuQLqqLfPUXshh1i8p3yWzUxJQNg+Szjp0Fpi4BPRxMkC4/SrmXfyHuxbMuTlDdy8bayXvD1Gh67qqBdK27TwvRhXSMV+YolF+PpJ+y1IbUrV6Svia4jeBOSRzY1eX8EjVjqQN1SXQ5R5q7Ik1jJErusJea1Vu1QtJBXQpaIUGEc5QbJtwAXYh7qV6ZlRoQ5WQ93a7L3a8Rq0knd+jyE6zLxWUeqU+dQe4ONECXTHWR++fUQYYC+eQOXVYJ/UJTMpU5dHGOhy5SzV5qpy5n5dlTiC4iIWHPqyczdXGDzCgOXQ4J/Zq0Wocul1Bdhu0vf6VKwm90NeAlQO/+cg9te/eXWWigM6h/GW/mKvr6xHvC6+1fHrr09S/Bugw6HwXwzo56z0d3/0LnI1VUhy7r0HE0aPzip5PfZcofSPzi0GUjNatPZIXTrksZHMAMGe/66Wx0OONdhy6PoeCMdx26LIJ1GTI/8nLstN6ZHzl0eXxykh+phgr7AQfnfKswZD7to1IWb135NNueFi9uaihxY7rVa8WdsrpTWHX94QfLhlx/8aGsktCiJ6WnMvGG7L09tmjo+ovqebuFlcfMiYqZAdfrPOTqm+l6nWWflFRRpSarV5bVm0y1eh+xTjPg+m6ULNr67sHcU0k/3Uij1TOzMEx9Knw6GnQ/wMVBP5pDdxtXpgXulKh3/vcasgjYjn/TfgAd+1HLncPtHzkw7W1p+0eHRpsNqSzvPEKz+qjVwEggGuVehtxvtHIsTAPbUFjdMhxlDd0efwee+n7jNFe2ihivaW4WvMrwj8H2p82sypHF3SX6kd3D4nn6nYmMF/r50Nu76Yb96U3+OHXP7ifi01rf/I5SZcDzDNVlRrgud1ni+Eqmdx+X+bYp6tvVcJa4MxKM5xmml0XdNEV+uhjOGwUnjW/pBzr/oq0ztF2Obji3ffDzk+bzfXSj4miro3cNYs9LzS3npfx+jU+WP4vOof3UMEYdKGEKy+KsNhx69AozzPk6ny7s6UbX7+eYjDpfp56MjrM6bjJ6Msx5TF/V74Dlc/yQ0XDbxemb85j9tmoHOb/r0aUTo34CTxEeMV+00E2G+6e4/cwewjjOe7t16Xb7qjOvhApjOsoRfN5bPxMdygD3A9y6KMtF3bHYBPkY08EfU4JiluWLndrv75O4dVGWzbvr3MwQ32mUloxZFP77JOPdV+cdvr5/5Okv586jhfIn7nOgVW5tmf/+0ar59mbWl/fVPH63s5RMT7sIcaG1dbk6L7u576uNT1Ena8x8d7/Ro4v8DJdfLfeVjfUm38WWX32szm3xYVUOdF/4m/uwvvhFvnqjcbE0E2dDb10tswDnYL4PO97fwk92+OvofX+68sW7/Oceuh9+zbMDE3y0mH20qebrG0tCl6ozPjl3L19vrjs5xF1Y1cLg+/a7vIPXDMEneeM4Ucvu9+3ZpM7zuki4zKL+ocB9aSJt6nyX1w2/F44oG0P8/2cIemlYvd/9f4a+hQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgf8A5ih50UOrUdgAAAAASUVORK5CYII="
+        alt="op.gg" width="200" height="150" title="내 전적 보기">
+    </a>
+    <!-- <figcaption>OP.GG 를 클릭하세요.</figcaption> -->
+    <!-- </figure> -->
+  </span>
+  <span>
+    <!-- <figure> -->
+    <!-- <figcaption>네이버 바로가기</figcaption> -->
+    <a href="https://www.naver.com" target="_blank">
+      <img
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBhEIBw0SDw8NGQ8ODg4WDRcWEBUOFR0iFxkdFR8bKDQsGCYlJx8fITYtJTUrLi44GB8/OTQsNyouLjcBCgoKDQ0OGhAQFSslICQuNTMtKzEtNy01NzcrLSstLSsvKzc1LSsrKzctLS0rLy0tLSstLTcrKy0tKysvNTcrK//AABEIAOEA4QMBEQACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAAAQUHBAIDBv/EADoQAQABAwICBgUKBgMAAAAAAAABAgMRBAUGsiExNTZzgxJBUWHRFBUWIlNUcYGToRMjUrHh8EKRwf/EABsBAQACAwEBAAAAAAAAAAAAAAABBAIFBgMH/8QANBEBAAECAgcFCAEFAQAAAAAAAAECAwQRBRIyNHKBsSExM0FRFBVSU3GR0fBhEyJCobJE/9oADAMBAAIRAxEAPwC2y1D5UZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIIykMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkHkSAAAAAAAAAAAAAAAAAAAAAAAAAAAAjIkyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQecpSZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIIEgAAAAAAAAAAAAAAAAAAAAAAAAAAAPOUpMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkDIGQMgZAyBkECQAAAAAERmavRpjMz0RGOnKGUUzPZD7fJNX9jc/Sq+Ccp9Hr7Ne+CftJ8k1f2Nz9Kr4GU+h7Ne+CftJ8k1f2Nz9Kr4GU+h7Ne+CftLzcsai1T6Vy3XTHtmiYj9zKfRFVi5TGdVMxyeIkeIACJkH0t6fUXKPTt2q6onqmKJmDKfR7U2LlUZ00zMfR6+Sav7G5+lV8DKfRPs174J+0nyTV/Y3P0qvgZT6Hs174J+0nyTV/Y3P0qvgZT6Hs174J+0vlXTXbr9C5E0zHXExiUPKqiaZyqjKRLEAAAAAABGRJkDIGQMgZAyDq2jtjT+JZ5oZUbULWC3i3xR1a42T6IAA+Wr01rV6arT6in0qK4mmqPciqImMped21TdomiuM4llO8bdd2ncKtLd6Yjpoq/qonqn/fZLXV0zROUuBxuEqw12bdXKfWHJlipmQRVPQENM4L7tWfN56l7D+HH75u70PudHP/AKldvZswAGYcYd5L3l8sNfe8SXC6Y3yvl0hUZebVmQMgZAyBkDIGQQlIAAAAADp2jtjT+JZ5oTRtQs4PeLfFHWGvNk+iAAAKbijZqd30GKIiL1vNVqr3+umfdPweV23rx/LXaSwMYq1lG1Hd+ObMJiqiqaK4mJjMTEx0xMe1QcJVTMTlMJShEoIaZwV3as+bz1L2H8OP3zd1ofc6Of8A1K8ezZgAMv4x7y3vL5YUL23LhtMb5Xy6QqHm1YAAAAAADyAAAAAADq2ftnT+JZ5oTRtQtYPeLfFHVr7ZPoYAAAD8Px1snoVfOulp6JxF+mPVPqq/8n8veqX7eX90OZ03gP8A0URxfn8vx0SruZRPUghp3BXdmz5vPUvYfw4/fN3Wh9zo59ZXj2bIABl3GPeW95fLChe25cNpjfK+XSFO82rAAAAAAARkSZAyBkDIGQMg6tn7Z0/iWeaGVG1C1g94t8UdWwNi+hAAAAPN23RdtzbuxFVNUTTVTPVMT15JjNjVTFUTTMdksq4j2ivZtxm10zarzVZq9tPsn3x1f9e1r7lGpVk4bSOCnC3dX/Ge78clXM9DBr2n8E92bPm89S7Y8OP3zdzojc6OfWV49myAAZbxl3lveXyQoXtuXD6Y3yvl0hT5ebVmQMgZAyBkDIGQQlIAAAAADq2ftnT+JZ5oTRtQs4PeLfFHWGwti+hAAAAAK3f9pt7xt9Wnr6Ko+tbr/prjq/L1SwuURXGSpjcJTibU0T3+U/yye/Zu6e9VYv0zTXRM01Uz1xMNfMZdkuDuW6rdU01RlMNO4J7sWfN56l2x4cfvm7XRG50c+srx7NkAAyzjLvNe8vkhQvbcuH0xvdfLpCnYNYAAAAAAAgAAAAAAHVs/bOn8WzzQmjahawfj2+KOrYmxfQQAHz1F6jTaeq/enFNuKq6p9lNMZlEzERnLGuuKKZqq7o7XumqKqYqpnMT0xPqmEpic+2EiQH5DjvY/lFn5001P17cfzoj/AJW49f4x/b8Fa/bz/uhoNNYHXp/r0R2x3/T15dFlwR3Ys+bz1M7Hhx++a7ojc6OfWV69myAAZZxn3mveXyQoXtuXEaX3uvl0hTMGrAAAAAAAQJAAAAAAdezds6fxbPNDKjahZwfj2+KOrYmwfQQAHBv/AGFqfCv8ssLmxP0VsZu9zhnpL81wFvv8Sj5q1VX1qczYqmeunrmn8uuPd+DxsXP8ZafQuO1o/oVz2x3fh+0WXQgExExiQc236K1t+ljTaeMUUzXVTHsiqqasR+GcMaaYpjKHlZs02aNSnu7f9zm6WT1AAZXxn3mveXyQo3duXEaX3uvl0hTPNrAAAAAAAEJAAAAAAHXs3bOn8WzzQmnahawfj2+KOrY2wfQAAHBv/YWp8K/yywubE/RWxm73OGekshs3blm5Tds1TTVRMVU1R1xVHUoOCorqoqiqme2GscN7xRvO3Re6IuU4pvU+yv2x7p64/wAL1uvWh3OAxkYm1FXnHfH8/havRdAAAAAZVxp3mveXyQo3duXE6X3uvl0hTMGrAAAAAAAQlIAAAAADr2btrT+LZ5oTTtQs4Px7fFHVsi++gAAODf8AsLU+Ff5ZYXNiforYzd7nDPSWPQouAlZcP7vc2XcY1FOZon6t2j20fGOuP8sqKtSc13AYyrDXYq8vOGtWL1vUWab1mqKqK4iqmqOqYleic4zh3NFdNdMVUz2S+iWQAAADKuNO897y+SFK7ty4nS+918ukKVg1gAAAAAACBIAAAAADr2btrT+LZ5oZU7ULOD8e3xR1bKvO/AAcHEHYOp8K/wAssLmxP0VsZu9zhnpLHaVKHAymRD9hwFvv8C981aqr6lc5sTPqrnrp/P1e/wDF7Wa8p1ZdDobHas/0K57J7vw0BadOAAAAynjXvPf8vkhTu7cuK0tvdfLpClebWAAAAAAAIyyDIGQMgZAyBkHXsvbWn8WzzQU7ULOE8e3xR1bMvO/AAcHEHYOp8K/yywubE/RXxm73OGekscpU4cBKcpQZmJzTOJjpifXlGTKJmJzhqXCG+RvG3+jen+fZxTcj+qPVVH4/3/JatV60dve7TRmN9ptdu1Hf+V+9WyAAAZRxr3nv+XyQp3NuXFaW3uvl0hS5YtYZAyBkDIGQMgZBAkAAAAAB2bL21p/Fs80Jp2oWcJ49vijq2Zdd8AAr+IOwdT4V/llhc2Z+ivjN3ucM9JY5Spw4GUpQA69p3G9tO4U6zT9dPRVTnoqonrif99iYmaZzhZwuJqw9yLlP7/DX9BrLO4aOjVaac0XIzE/3iffHUuRMTGcO6s3abtEV0T2S6EvQABk/G3ei/wCXyQqXNuXF6W3uvl0hSsGsAAAAAAAQlIAAAAACbVyuzdpu2p9GqiYqpq9cVR0xKGVFU0zFUd8LT6Tb397r/b4Mtev1XfeeL+ZJ9Jt7+91/t8DXr9T3ni/mSfSbe/vdf7fA16/U954v5kvF7iHeL9mqze1NdVNcTTVT0YmmeiY6iaqp80VaQxNVM0zcnKVZDFRlKQAB2aHd9x2+1NrRX6rdMz6U0xjHpfmRNUd0rVnGX7NOrRXMQ6fpNvf3uv8Ab4J16/V6+88X8yT6Tb397r/b4GvX6nvPF/Mk+k29/e6/2+Br1+p7zxfzJV2q1N/WaidRqq5rrqx6VU9c4jEI7ZnOVS7dru1TVXOcy+Y8wAAAAAAEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAECQAAAAAAAAAAAAAAAAAAAAAAAAAAAEJSAAAAAAAAAAAAAAAAAAAAAAAAAAAAhIAAAAAAAAAAAAAAAAAAAAAAAAAAAAhKQAAAAAAAAAAAAAAAAAAAAAAAAAAAEJSAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k="
+        alt="naver" width="200" height="150" title="내 전적 보기">
+    </a>
+    <!-- <figcaption>N 을 클릭하세요.</figcaption> -->
+    <!-- </figure> -->
+  </span>
+  <br>
+
+  <span>
+    aaa
+  </span>
+  <span>
+    aaa
+  </span>
+
+
+</body>
+
+</html>
