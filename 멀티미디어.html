@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+    @font-face {
+      font-family: 'Hanna';
+      src: url("font/bamin/BMHANNAPro.ttf");
+    }
+
+    body {
+      /* font-family: 'Noto Sans KR', sans-serif; */
+      font-family: 'Hanna';
+    }
+
+    .shadow1 {
+      text-shadow: 7px -7px 5px #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 class="shadow1"># 미디어 업로드 실습</h1>
+  <section>
+    <table>
+      <tr>
+        <td>
+          <h3>조유리 Love Shhh!</h3>
+          <!-- 외부영상 가져오는 태그는 iframe -->
+          <iframe width="394" height="303" src="https://www.youtube.com/embed/w2P9NT8P8qA?autoplay=1&mute=1"
+            title="조유리 (JO YURI) | '러브 쉿! (Love Shhh!)’ MV" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </td>
+        <td>
+          <h3>나연 POP</h3>
+          <iframe width="394" height="303" src="https://www.youtube.com/embed/f6YDKF0LVWw?autoplay=1&mute=1"
+            title="NAYEON " POP!" M/V" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </td>
+      <tr>
+        <td>
+          <h3>르세라핌 Fearless</h3>
+          <iframe width="394" height="303" src="https://www.youtube.com/embed/4vbDFu0PUew?autoplay=1&mute=1"
+            title="LE SSERAFIM FEARLESS OFFICIAL M/V" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </td>
+        <td>
+          <h3>에스파 Next Level</h3>
+          <iframe width="394" height="303" src="https://www.youtube.com/embed/4TWR90KJl84?autoplay=1&mute=1"
+            title="aespa 에스파 'Next Level' MV" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </td>
+      </tr>
+      </tr>
+    </table>
+    <br><br><br>
+
+
+
+    <h3>오디오 파일 재생</h3>
+    <audio src="img/미소속에비친그대.mp3" controls></audio>
+
+    <h3>비디오 파일 재생</h3>
+    <video src="img/사랑한다사랑해.mp4" controls autoplay width="400" height="300"></video>
+  </section>
+
+</body>
+
+</html>

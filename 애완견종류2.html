@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>강아지용품</title>
+  <style>
+    /* 글씨체 */
+    @font-face {
+      font-family: bamin;
+      src: url(font/bamin/BMYEONSUNG_ttf.ttf);
+    }
+
+    * {
+      font-family: bamin;
+      text-decoration: none;
+    }
+
+    #container {
+      width: 850px;
+      /*딱 맞게 하려면 height 안주면 됨 */
+      /* height: 900px; */
+      /* border: 2px solid #000; */
+      margin: 0 auto;
+      background-color: #FAEDF9;
+      padding: 0 20px;
+      /* text-align: center; */
+    }
+
+    /* qa */
+    header {
+      width: 890px;
+      margin: 0 auto;
+      background-color: #4488ee;
+      text-align: right;
+    }
+
+    header ul {
+      margin: 0px;
+    }
+
+    header>ul>li {
+      display: inline-block;
+      /* background-color: red; */
+      margin: 30px;
+    }
+
+    header a {
+      font-size: 22px;
+      color: white;
+    }
+
+    .title {
+      margin-top: 0;
+      padding-top: 20px;
+      font-size: 30px;
+    }
+
+    .ul1 {
+      text-align: center;
+      font-size: 22px;
+
+    }
+
+    .ul1>li {
+      display: inline-block;
+      margin: 0px 30px;
+    }
+
+    .ul1>li>a {
+      color: blue;
+    }
+
+    .box1 {
+      border: 2px solid violet;
+      padding: 10px;
+      border-radius: 20px;
+      border-style: dotted;
+      font-size: 18px;
+    }
+
+    .box2 {
+      border: 2px solid #1DDC23;
+      padding: 10px;
+      border-radius: 20px;
+      border-style: dashed;
+      font-size: 18px;
+    }
+
+    .box3 {
+      border: 2px solid #FD120E;
+      padding: 10px;
+      border-radius: 20px 0px 20px 0px;
+      border-style: dotted;
+      font-size: 18px;
+    }
+
+    .h3_1 {
+      text-indent: 30px;
+      font-size: 22px;
+    }
+
+    .fig1 {
+      text-align: center;
+    }
+
+    .fig1>img {
+      width: 170px;
+      height: 170px;
+    }
+
+    /* qa */
+    .mv_top {
+
+      font-size: 20px;
+      margin: 0px;
+      color: #FB7404;
+    }
+
+    .p1 {
+      text-align: right;
+      margin: 0px;
+      padding: 20px;
+    }
+
+    aside {
+      width: 850px;
+      padding: 20px;
+      margin: 5px auto;
+      background-color: #EEADEA;
+      font-size: 18px;
+    }
+
+    footer {
+      width: 850px;
+      padding: 5px 20px;
+      margin: 5px auto;
+      background-color: #4488ee;
+      font-size: 20px;
+    }
+
+    h5 {
+      margin: 10px;
+    }
+
+    footer p {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <a id="top"></a>
+  <header>
+    <ul>
+      <li><a href="#">애완견종류</a></li>
+      <li><a href="#">강아지용품</a></li>
+      <li><a href="#">더불어살기</a></li>
+      <li><a href="#">애완견종류</a></li>
+    </ul>
+  </header>
+  <div id="container">
+    <section>
+      <h1 class="title">마블리 종류</h1>
+      <ul class="ul1">
+        <li><a href="#punch">펀치왕 마블리</a></li>
+        <li><a href="#cute">귀여운 마블리</a></li>
+        <li><a href="#ssadagoo">뺨싸다구 마블리</a></li>
+      </ul>
+
+      <article>
+        <a id="punch"></a>
+        <div class="box1">
+          <h3 class="h3_1">펀치왕 마블리</h3>
+          <dl>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+          </dl>
+        </div>
+        <figure class="fig1">
+          <img src="https://c.tenor.com/m8uAK6VIXHUAAAAC/meme-%EB%A7%88%EB%8F%99%EC%84%9D.gif" alt="펀치왕 마블리">
+          <img src="https://c.tenor.com/m8uAK6VIXHUAAAAC/meme-%EB%A7%88%EB%8F%99%EC%84%9D.gif" alt="펀치왕 마블리">
+          <img src="https://c.tenor.com/m8uAK6VIXHUAAAAC/meme-%EB%A7%88%EB%8F%99%EC%84%9D.gif" alt="펀치왕 마블리">
+          <figcaption>뒤질래?</figcaption>
+        </figure>
+        <p class="p1"><a href="#top" class="mv_top">처음으로</a></p>
+      </article>
+      <br>
+
+      <article>
+        <a id="cute"></a>
+        <div class="box2">
+          <h3 class="h3_1">귀여운 마블리</h3>
+          <dl>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+          </dl>
+        </div>
+        <figure class="fig1">
+          <img src="https://c.tenor.com/8AKuILgea_8AAAAC/acting-cute-ma-don-suk.gif" alt="샤샤샤">
+          <img src="https://c.tenor.com/8AKuILgea_8AAAAC/acting-cute-ma-don-suk.gif" alt="샤샤샤">
+          <img src="https://c.tenor.com/8AKuILgea_8AAAAC/acting-cute-ma-don-suk.gif" alt="샤샤샤">
+          <figcaption>샤샤샤</figcaption>
+        </figure>
+        <p class="p1"><a href="#top" class="mv_top">처음으로</a></p>
+      </article>
+      <br>
+
+      <article>
+
+        <a id="ssadagoo"></a>
+        <div class="box3">
+          <h3 class="h3_1">뺨싸다구 마블리</h3>
+          <dl>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+            <dt>샤샤샤</dt>
+            <dd>어쩌고 저쩌고.....</dd>
+          </dl>
+        </div>
+        <figure class="fig1">
+          <img src="https://thumbs.gfycat.com/LightDrearyBurro-max-1mb.gif" alt="뺨싸다구 마블리">
+          <img src="https://thumbs.gfycat.com/LightDrearyBurro-max-1mb.gif" alt="뺨싸다구 마블리">
+          <img src="https://thumbs.gfycat.com/LightDrearyBurro-max-1mb.gif" alt="뺨싸다구 마블리">
+          <figcaption>짝!</figcaption>
+        </figure>
+        <p class="p1"><a href="#top" class="mv_top">처음으로</a></p>
+      </article>
+    </section>
+  </div>
+
+  <aside>
+    <h3 class="h3_1">우리 동석이 형은요...</h3>
+    <ul>
+      <li>어쩌고 저쩌고.....</li>
+      <li>어쩌고 저쩌고.....</li>
+      <li>어쩌고 저쩌고.....</li>
+      <li>어쩌고 저쩌고.....</li>
+      <li>어쩌고 저쩌고.....</li>
+    </ul>
+  </aside>
+
+  <!-- qa -->
+  <footer>
+    <h5>까불지말자</h5>
+    <p>©2022 Mavely Labs, Inc.</p>
+  </footer>
+
+</body>
+
+</html>
