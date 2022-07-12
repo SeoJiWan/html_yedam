@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>입력 폼</title>
+  <link rel="stylesheet" href="css/폼.css">
+</head>
+
+<body>
+  <form action="get">
+    <fieldset>
+      <legend>로그인 정보</legend>
+      <ul>
+        <li>
+          <label for="name">이름 : </label>
+          <input type="text" id="name" placeholder="ex) 배달의민족" autofocus>
+        </li>
+        <li>
+          <label for="pwd">비밀번호 : </label>
+          <input type="password" id="pwd">
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>가입자 정보</legend>
+      <ul>
+        <li>
+          <label for="name">이름 : </label>
+          <input type="text" id="name">
+        </li>
+        <li>
+          <label for="mail">메일주소 : </label>
+          <input type="email" id="mail">
+        </li>
+        <li>
+          <label for="birth">생년월일 : </label>
+          <input type="date" id="birth">
+        </li>
+        <li>
+          <label for="birth">숫자 : </label>
+          <input type="number" id="birth" min="0" max="10" step="2">
+        </li>
+        <li>
+          <label for="birth">바 : </label>
+          <input type="range" id="birth" min="0" max="100" step="2">
+        </li>
+        <li>
+          <label for="birth">파일 : </label>
+          <input type="file">
+        </li>
+        <li>
+          <label for="birth">색깔 : </label>
+          <input type="color">
+        </li>
+        <li>
+          <label for="birth">검색 : </label>
+          <input type="search">
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="select">
+      <legend>선택 버튼</legend>
+      <ul>
+        <li><label><input type="radio" name="bm" value="1" checked>배달의 민족1</label>
+          <label><input type="radio" name="bm" value="2">배달의 민족2</label>
+          <label><input type="radio" name="bm" value="3">배달의 민족3</label>
+        </li>
+      </ul>
+
+      <ul class="ck">
+        <li>
+          <input type="checkbox" name="dg1" value="1" checked>당근마켓1
+          <input type="checkbox" name="dg2" value="1">당근마켓2
+
+        </li>
+      </ul>
+
+
+    </fieldset>
+
+    <fieldset class="btn">
+      <input type="submit" value="가입하기">
+      <input type="reset" value="다시입력">
+    </fieldset>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>input-type</title>
+  <link rel="stylesheet" href="css/input-type.css">
+</head>
+
+<body>
+  <form action="get">
+    <fieldset>
+      <label for="id">아이디 : </label>
+      <input type="text" id="id">
+      <label for="pwd">비밀번호 : </label>
+      <input type="password" id="pwd">
+      <button type="submit">로그인</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>개인정보</legend>
+      <ul class="info_field">
+        <li>
+          <label for="id">아이디 : <span>*</span></label>
+          <input type="text" id="id" maxlength="10">
+        </li>
+        <li>
+          <label for="pwd">비밀번호 : <span>*</span></label>
+          <input type="password" id="pwd" maxlength="10">
+        </li>
+        <li>
+          <label for="ck_pwd">비밀번호확인 : <span>*</span></label>
+          <input type="password" id="ck_pwd" maxlength="10">
+        </li>
+        <li>
+          <label for="name">이름 : <span>*</span></label>
+          <input type="text" id="name" maxlength="10">
+        </li>
+        <li>
+          <label for="mail">메일 주소 : <span>*</span></label>
+          <input type="email" id="main" maxlength="20">
+        </li>
+        <li>
+          <label for="hp_address">홈페이지 주소 : <span>*</span></label>
+          <input type="text" id="hp_address" maxlength="10">
+        </li>
+        <li>
+          <label for="p_code">우편번호 : </label>
+          <input class="p_code_box" type="text" id="p_code" maxlength="3">
+          -
+          <input class="p_code_box" type="text" id="p_code" maxlength="3">
+          <button type="button">우편번호 검색</button>
+        </li>
+        <li>
+          <label for="address">집주소 : </label>
+          <input type="text" id="address" maxlength="40">
+        </li>
+        <li>
+          <label for="ph_num">연락처 : </label>
+          <input type="text" id="ph_num">
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="sh_field label">
+      <label for="sh">검색 : </label>
+      <input type="search" id="sh">
+      <button type="submit">검색</button>
+      <button type="reset">다시입력</button>
+    </fieldset>
+
+    <fieldset>
+      <legend>등록 정보</legend>
+      <ul class="reg_field">
+        <li>
+          <label for="num_people">참여인원(최대10명) : </label>
+          <input type="number" id="num_people" min="0" max="10" step="1" placeholder="1">
+        </li>
+        <li>
+          <label for="num_things">지원물품(1인당 5개) : </label>
+          <input type="number" id="num_things" min="0" max="50" step="5" placeholder="1">
+        </li>
+        <li>
+          <label for="step">희망단계(상,중,하) : </label>
+          <input type="range" id="step" min="1" max="3" step="1">
+        </li>
+        <li>
+          <label for="attach">첨부파일 선택 : </label>
+          <input type="file" id="attach" min="1" max="3" step="1">
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>수강 과목을 선택하세요(1과목 선택 가능)</legend>
+      <ul>
+        <li>
+          <label>선호색상</label>
+          <input type="color">
+        </li>
+        <li>
+          <label>신청과목</label>
+          <label><input type="radio" name="subject" value="1" checked>영어회화(초급)</label>
+          <label><input type="radio" name="subject" value="2">영어회화(중급)</label>
+          <label><input type="radio" name="subject" value="3">영어회화(고급)</label>
+        </li>
+        <li>
+          <label>관심분야는?(다수선택)</label>
+          <label><input type="checkbox" name="sns1" value="1" checked>Twitter</label>
+          <label><input type="checkbox" name="sns1" value="2">Facebook</label>
+          <label><input type="checkbox" name="sns1" value="3">Instagram</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset class="last_btn">
+      <button type="submit">전송</button>
+      <button type="reset">취소</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>
