@@ -5,9 +5,44 @@
   <meta charset="UTF-8">
   <title>입력 폼</title>
   <link rel="stylesheet" href="css/폼.css">
+
+  <style>
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
+
+    /* 링크를 한번이상 방문하면 발동 */
+    a:visited {
+      color: rgb(179, 10, 49);
+    }
+
+    /* 마우스 갖다대면 발동 */
+    a:hover {
+      background-color: brown;
+      color: black;
+    }
+
+    /* 마우스 클릭시 발동 */
+    a:active {
+      background-color: blue;
+      color: white;
+    }
+
+    /* 초점이 맞춰졌을 때 */
+    a:focus {
+      background-color: black;
+      color: white;
+    }
+
+    input:focus {
+      background-color: yellow;
+    }
+  </style>
 </head>
 
 <body>
+  <a href="#">가상 클래스</a>
   <form action="get">
     <fieldset>
       <legend>로그인 정보</legend>
